@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime / process files
+pids/
+*.pid
+*.pid.lock
+
+# Coverage / reports
+coverage/
+.nyc_output/
+
+
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local auth/session artifacts
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Misc temp
+tmp/
+temp/
+*.tmp
